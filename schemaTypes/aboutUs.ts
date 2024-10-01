@@ -18,16 +18,19 @@ export default defineType({
       name: 'mission',
       title: 'Mission',
       type: 'text',
+      validation: (Rule) => Rule.required().min(20).max(120),
     },
     {
       name: 'vision',
       title: 'Vision',
       type: 'text',
+      validation: (Rule) => Rule.required().min(20).max(120),
     },
     {
       name: 'values',
       title: 'Values',
       type: 'text',
+      validation: (Rule) => Rule.required().min(20).max(120),
     },
   ],
 })
