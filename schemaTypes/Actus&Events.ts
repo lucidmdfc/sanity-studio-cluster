@@ -1,8 +1,8 @@
 import {defineType} from 'sanity'
 import content from './content'
 export default defineType({
-  name: 'event',
-  title: 'Event',
+  name: 'Actus&Events',
+  title: 'Actus et Events',
   type: 'document',
   fields: [
     {
@@ -21,11 +21,7 @@ export default defineType({
       validation: (Rule) => Rule.required().min(15).max(350),
     },
     ...content.fields.filter(
-      (field) =>
-        field.name === 'body' ||
-        field.name === 'socialMedia' ||
-        field.name === 'tags' ||
-        field.name === 'author',
+      (field) => field.name === 'body' || field.name === 'tags' || field.name === 'author',
     ),
 
     {

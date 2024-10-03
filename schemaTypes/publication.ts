@@ -21,7 +21,7 @@ export default defineType({
       title: 'Description',
       validation: (Rule) => Rule.required().min(50).max(200),
     },
-    ...content.fields.filter((field) => field.name === 'body' || field.name === 'socialMedia'),
+    ...content.fields.filter((field) => field.name === 'body'),
     {
       name: 'publicationDate',
       title: 'Publication Date',

@@ -9,9 +9,9 @@ import blogs from './blogs'
 import {presentation} from './presentation'
 import tag from './tag'
 import communiques from './communiques'
-import event from './event'
+import event from './Actus&Events'
 import socialMedia from './socialMedia'
-import homePresentation from './homePresentation'
+import homePresentation from './Accueil'
 import publication from './publication'
 
 export const schemaTypes = [

@@ -2,8 +2,8 @@ import {defineType} from 'sanity'
 import {DocumentIcon} from '@sanity/icons'
 import content from './content'
 export default defineType({
-  name: 'homePresentation',
-  title: "Présentation de la page d'accueil",
+  name: 'Accueil',
+  title: 'Accueil',
   type: 'document',
   icon: DocumentIcon,
   fields: [
@@ -19,8 +19,7 @@ export default defineType({
         field.name === 'slug' ||
         field.name === 'title' ||
         field.name === 'SubTitle' ||
-        field.name === 'body' ||
-        field.name === 'socialMedia',
+        field.name === 'body',
     ),
   ],
 })
