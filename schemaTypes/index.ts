@@ -9,6 +9,11 @@ import blogs from './blogs'
 import {presentation} from './presentation'
 import tag from './tag'
 import communiques from './communiques'
+import event from './event'
+import socialMedia from './socialMedia'
+import homePresentation from './homePresentation'
+import publication from './publication'
+
 export const schemaTypes = [
   aboutUs,
   content,
@@ -21,4 +26,8 @@ export const schemaTypes = [
   presentation,
   tag,
   communiques,
+  event,
+  socialMedia,
+  homePresentation,
+  publication,
 ]

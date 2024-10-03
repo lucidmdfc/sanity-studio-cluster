@@ -28,10 +28,22 @@ export default defineType({
       validation: slugValidation,
     },
     {
+      name: 'SubTitle',
+      title: 'Sous-Titre du contenu',
+      type: 'string',
+      validation: (Rule) => Rule.required().min(10).max(80),
+    },
+
+    {
       name: 'body',
       title: 'Contenu',
       type: 'blockContent',
       validation: (Rule) => Rule.required(),
+    },
+    {
+      name: 'socialMedia',
+      type: 'socialMedia', // Reusable social media schema
+      title: 'Social Media Share',
     },
     {
       name: 'excerpt', //Shows the chosen expcrept for the communiquein their Home UI
