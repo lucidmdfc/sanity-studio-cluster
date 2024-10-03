@@ -1,7 +1,7 @@
 import {defineType} from 'sanity'
 import content from './content'
 export default defineType({
-  name: 'Actus&Events',
+  name: 'ActusEvents',
   title: 'Actus et Events',
   type: 'document',
   fields: [
