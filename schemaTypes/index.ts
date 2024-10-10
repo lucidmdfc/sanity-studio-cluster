@@ -13,7 +13,7 @@ import event from './ActusEvents'
 import socialMedia from './socialMedia'
 import homePresentation from './Accueil'
 import publication from './publication'
-
+import footer from './footer'
 export const schemaTypes = [
   aboutUs,
   content,
@@ -30,4 +30,5 @@ export const schemaTypes = [
   socialMedia,
   homePresentation,
   publication,
+  footer,
 ]
