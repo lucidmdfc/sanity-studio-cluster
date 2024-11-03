@@ -14,6 +14,16 @@ import socialMedia from './socialMedia'
 import homePresentation from './Accueil'
 import publication from './publication'
 import footer from './footer'
+import Candidate from './Candidate'
+import CandidateSkill from './CandidateSkill'
+import Skill from './Skill'
+import Job from './Job'
+import JobSkill from './JobSkill'
+import Sector from './Sector'
+import Company from './Company'
+import Recruiter from './Recruiter'
+import Application from './Application'
+
 export const schemaTypes = [
   aboutUs,
   content,
@@ -31,4 +41,13 @@ export const schemaTypes = [
   homePresentation,
   publication,
   footer,
+  Candidate,
+  CandidateSkill,
+  Skill,
+  Job,
+  JobSkill,
+  Sector,
+  Company,
+  Recruiter,
+  Application,
 ]
