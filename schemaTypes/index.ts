@@ -23,6 +23,7 @@ import Sector from './Sector'
 import Company from './Company'
 import Recruiter from './Recruiter'
 import Application from './Application'
+import seo from './seo'
 
 export const schemaTypes = [
   aboutUs,
@@ -50,4 +51,5 @@ export const schemaTypes = [
   Company,
   Recruiter,
   Application,
+  seo,
 ]

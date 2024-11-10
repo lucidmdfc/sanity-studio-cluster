@@ -37,12 +37,12 @@ export default defineType({
       type: 'datetime',
       validation: (Rule) => Rule.required(),
     },
-    // {
-    //   name: 'seo',
-    //   title: 'SEO',
-    //   type: 'reference',
-    //   to: [{type: 'seo'}],
-    // },
+    {
+      name: 'seo',
+      title: 'SEO',
+      type: 'reference',
+      to: [{type: 'seo'}],
+    },
     ...content.fields.filter((field) => field.name === 'tags'),
     {
       name: 'author',
