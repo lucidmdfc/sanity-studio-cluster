@@ -7,18 +7,18 @@ export default defineType({
   fields: [
     {
       name: 'mainTitle',
-      title: 'MainTitle',
+      title: 'Main Title',
       type: 'string',
     },
     {
-      name: 'subtitile',
-      title: 'Subtitile',
+      name: 'subtitle',
+      title: 'Subtitle',
       type: 'string',
     },
     {
       name: 'duration',
       title: 'Duration',
-      type: 'string',
+      type: 'string',  
     },
     {
       name: 'review',
@@ -31,18 +31,18 @@ export default defineType({
       type: 'number',
     },
     {
-      name: 'buttonCTA',
-      title: 'ButtonCTA',
+      name: 'buttonCta',
+      title: 'Button CTA',
       type: 'string',
     },
     {
       name: 'videoTitle',
-      title: 'VideoTitle',
+      title: 'Video Title',
       type: 'string',
     },
     {
-      name: 'illustration',
-      title: 'illustration',
+      name: 'illustrations',
+      title: 'Illustrations',
       type: 'array',
       of: [{ type: 'reference', to: [{ type: 'illustration' }] }],
     },
@@ -50,13 +50,13 @@ export default defineType({
       name: 'faqs',
       title: 'FAQs',
       type: 'array',
-      of: [{ type: 'reference', to: [{ type: 'faqs' }] }],
+      of: [{ type: 'reference', to: [{ type: 'faq' }] }],
     },
     {
       name: 'seo',
       title: 'SEO',
       type: 'reference',
-      to: [{type: 'seo'}],
+      to: [{ type: 'seo' }],
     },
   ],
 })
