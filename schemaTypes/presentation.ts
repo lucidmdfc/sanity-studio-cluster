@@ -29,31 +29,6 @@ export const presentation = defineType({
       type: 'array',
       of: [{ type: 'reference', to: [{ type: 'faqs' }] }],
     },
-    // {
-    //   name: 'faqs',
-    //   title: 'FAQs',
-    //   type: 'array',
-    //   of: [
-    //     {
-    //       type: 'object',
-    //       title: 'FAQ',
-    //       fields: [
-    //         {
-    //           name: 'question',
-    //           title: 'Question',
-    //           type: 'string',
-    //           validation: (Rule) => Rule.required().error('A question is required'),
-    //         },
-    //         {
-    //           name: 'answer',
-    //           title: 'Answer',
-    //           type: 'text', // Block content for rich text formatting
-    //           validation: (Rule) => Rule.required().error('An answer is required'),
-    //         },
-    //       ],
-    //     },
-    //   ],
-    // },
     {
       name: 'seo',
       title: 'SEO',

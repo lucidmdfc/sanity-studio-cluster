@@ -14,7 +14,7 @@ export default defineType({
     {
       name: 'answer',
       title: 'Answer',
-      type: 'text', // No need for block content. Just normal text
+      type: 'text', 
       validation: (Rule) => Rule.required().error('An answer is required'),
     },
   ],

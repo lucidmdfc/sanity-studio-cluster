@@ -25,6 +25,7 @@ import Recruiter from './Recruiter'
 import Application from './Application'
 import seo from './seo'
 import faqs  from './faqs'
+import studio from './studio'
 
 export const schemaTypes = [
   aboutUs,
@@ -53,5 +54,6 @@ export const schemaTypes = [
   Recruiter,
   Application,
   seo,
-  faqs
+  faqs,
+  studio
 ]

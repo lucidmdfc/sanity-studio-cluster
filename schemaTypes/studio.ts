@@ -40,5 +40,23 @@ export default defineType({
       title: 'VideoTitle',
       type: 'string',
     },
+    {
+      name: 'illustration',
+      title: 'illustration',
+      type: 'array',
+      of: [{ type: 'reference', to: [{ type: 'illustration' }] }],
+    },
+    {
+      name: 'faqs',
+      title: 'FAQs',
+      type: 'array',
+      of: [{ type: 'reference', to: [{ type: 'faqs' }] }],
+    },
+    {
+      name: 'seo',
+      title: 'SEO',
+      type: 'reference',
+      to: [{type: 'seo'}],
+    },
   ],
 })
