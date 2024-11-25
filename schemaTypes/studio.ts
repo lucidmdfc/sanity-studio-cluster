@@ -50,7 +50,7 @@ export default defineType({
       name: 'faqs',
       title: 'FAQs',
       type: 'array',
-      of: [{ type: 'reference', to: [{ type: 'faq' }] }],
+      of: [{ type: 'reference', to: [{ type: 'faqs' }] }],
     },
     {
       name: 'seo',
